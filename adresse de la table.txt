@@ -1,0 +1,1 @@
+http://localhost/phpmyadmin/index.php?route=/table/change&db=base1&table=user
