@@ -1,1 +1,5 @@
 http://localhost/phpmyadmin/index.php?route=/table/change&db=base1&table=user
+
+http://localhost/phpmyadmin/index.php?route=/sql&pos=0&db=base1&table=livredor
+
+http://localhost/Securite/xss_correction_faille.php
